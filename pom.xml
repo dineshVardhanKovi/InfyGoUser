@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dinesh</groupId>
-	<artifactId>InfyTelUser</artifactId>
+	<artifactId>InfyGoUser</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>InfyTelUser</name>
-	<description>InfyTel User Microservice</description>
+	<name>InfyGoUser</name>
+	<description>InfyGO User Microservice</description>
 
 	<properties>
 		<java.version>1.8</java.version>

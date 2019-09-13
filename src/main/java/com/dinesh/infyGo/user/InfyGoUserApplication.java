@@ -1,13 +1,13 @@
-package com.dinesh.infyTelUser;
+package com.dinesh.infyGo.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InfyTelUserApplication {
+public class InfyGoUserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InfyTelUserApplication.class, args);
+		SpringApplication.run(InfyGoUserApplication.class, args);
 	}
 
 }
