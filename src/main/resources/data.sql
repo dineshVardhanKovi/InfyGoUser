@@ -1,0 +1,1 @@
+insert into user_details values ('dinesh_vardhan','dinesh_vardhan','Dinesh Vardhan','Hyderabad','dineshvardhan@gmail.com','9030641030');
