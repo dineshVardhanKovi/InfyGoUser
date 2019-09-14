@@ -1,11 +1,17 @@
 package com.dinesh.infyGo.user.dto;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 import lombok.Data;
 
 @Data
 public class UserDTO {
+	
+	@NotNull(message = "userId cannot be null")
 	private String userId;
 
+	@NotNull(message = "password cannot be null")
 	private String password;
 
 	private String name;
@@ -14,56 +20,7 @@ public class UserDTO {
 
 	private String email;
 
+	@Size(min = 10, max = 10,message = "phoneNo should be 10 digits")
 	private String phoneNo;
-
-	public String getUserId() {
-		return userId;
-	}
-
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getCity() {
-		return city;
-	}
-
-	public void setCity(String city) {
-		this.city = city;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getPhoneNo() {
-		return phoneNo;
-	}
-
-	public void setPhoneNo(String phoneNo) {
-		this.phoneNo = phoneNo;
-	}
-	
-	
 	
 }

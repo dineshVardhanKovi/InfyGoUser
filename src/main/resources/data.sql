@@ -1,1 +1,2 @@
 insert into user_details values ('dinesh_vardhan','dinesh_vardhan','Dinesh Vardhan','Hyderabad','dineshvardhan@gmail.com','9030641030');
+insert into user_details values ('priyanka','priyanka','Priyanka','Hyderabad','priyanka@gmail.com','8374386164');

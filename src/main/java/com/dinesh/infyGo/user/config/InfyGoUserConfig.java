@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class InfyGoUserConfig {
 	@Bean
 	public DozerBeanMapper beanMapper() {
-		return new DozerBeanMapper();
+		DozerBeanMapper beanMapper = new DozerBeanMapper();
+		return beanMapper;
 	}
 }
